@@ -290,6 +290,7 @@ body {
   line-height: 1.42857143;
   color: #1d1d1d;
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 input,
 button,

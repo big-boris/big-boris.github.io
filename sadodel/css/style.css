@@ -29,7 +29,6 @@
 
 .s__main {
   background: url("../img/bg_hatch-dark.jpg") repeat;
-  max-width: 100%;
   height: 100%;
   padding-bottom: 75px;
   color: #7AA360; }
@@ -57,7 +56,6 @@
 .s__frm__agronom {
   background: url("../img/bg_frm_agronom.jpg") center no-repeat;
   background-size: cover;
-  max-width: 100%;
   height: 100%;
   padding-bottom: 136px; }
   .s__frm__agronom-icoqual {
@@ -133,7 +131,6 @@
 
 .s__tarifs {
   background: url("../img/bg_hatch-light.jpg") repeat;
-  max-width: 100%;
   height: 100%;
   padding: 50px 0px 75px; }
   .s__tarifs__title {
@@ -174,9 +171,15 @@
     color: #142622;
     margin-left: 15px; }
 
+@media screen and (max-width: 768px) and (min-width: 425px) {
+  .s__tarifs__card {
+    width: 65%;
+    margin: 30px auto; }
+    .s__tarifs__card:first-child {
+      margin-top: 0px; } }
+
 .s__service {
   background-color: #F5FAF5;
-  max-width: 100%;
   height: 100%;
   padding: 75px 0px; }
   .s__service-title {
@@ -192,12 +195,14 @@
 
 .s__usluga {
   margin-bottom: 100px; }
+  .s__usluga__img {
+    margin-bottom: 26px; }
 
 .s__usluga-title {
   font-family: 'open_sans-extrabold';
   font-size: 30px;
   color: #131313;
-  margin-bottom: 36px; }
+  margin-bottom: 26px; }
 
 .s__usluga-text {
   font-size: 24px;
@@ -207,7 +212,7 @@
 
 .s__present {
   height: 100%;
-  padding-bottom: 60px; }
+  padding: 60px 0px; }
   .s__present__text {
     font-size: 26px;
     color: #161616;
@@ -215,12 +220,13 @@
   .s__present__proposal {
     font-family: 'open_sans-bold';
     font-size: 36px;
+    text-transform: uppercase;
     color: #62834D;
     margin-bottom: 45px; }
 
 .s__present__form {
   border: 3px solid #EFEFEF;
-  padding: 40px 25px; }
+  padding: 40px 0px; }
 
 .frm__present__input {
   height: 68px;
@@ -270,14 +276,6 @@
   background-color: #182B22;
   color: #76A76D;
   padding: 60px 0px 40px; }
-  .s__footer__devstudio {
-    font-family: 'open_sans-semibold';
-    font-size: 18px;
-    text-transform: uppercase;
-    margin-left: 65px; }
-  .s__footer__copyr {
-    font-size: 16px;
-    color: #FFFFFF; }
 
 .s__footer__left__title {
   font-size: 13px;
@@ -297,11 +295,11 @@
 
 .s__footer__left__social {
   margin-top: 45px;
-  margin-left: 65px !important; }
+  margin-bottom: 26px; }
   .s__footer__left__social-item {
     margin: 0px 8px; }
     .s__footer__left__social-item:first-child {
-      margin-left: 0px; }
+      margin-left: 65px; }
 
 .s__footer__policy-title {
   font-family: 'open_sans-semibold';
@@ -311,3 +309,17 @@
 .s__footer__policy-text {
   font-size: 16px;
   margin-bottom: 90px; }
+
+.s__footer__devstudio {
+  font-family: 'open_sans-semibold';
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-left: 65px; }
+
+.s__footer__copyr {
+  font-size: 16px;
+  color: #FFFFFF; }
+
+@media (max-width: 768px) {
+  .s__footer__devstudio, .s__footer__copyr {
+    margin-left: 15px; } }
