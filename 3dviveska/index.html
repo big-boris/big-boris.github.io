@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>3DВывеска</title>
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/normalboot.css">
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/adaptive.css">
+  </head>
+  <body class="index-page">
+    <div class="preinfo hidden-xs">
+      <div class="container">
+        <ul class="preinfo-list">
+          <li class="preinfo-list__item"><i class="icon-clock preinfo-list__item--time"></i>пн - пт с 09:00 до 18:00</li>
+          <li class="preinfo-list__item cursor--pointer js-scroll_to" data-scroll_to="#map"><i class="icon-location preinfo-list__item--addr"></i>Москва, ул. Михалковская, 65с1</li>
+          <li class="preinfo-list__item"><i class="icon-phone preinfo-list__item--phone"></i><a class="preinfo-list__link" href="tel:+74951182663">8 495 118-26-63</a></li>
+          <li class="preinfo-list__item"><i class="icon-email preinfo-list__item--mail"></i><a class="preinfo-list__link" href="" emailto="zakaz@viveska1.ru">zakaz@viveska1.ru</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="page-header">
+      <div class="container">
+        <div class="col-4 col-md-12">
+          <div class="page-header__logo"><a class="logo" href=""><img class="logo__img" src="/assets/main/img/logo-tempo.png" alt="3dвывеска"><span class="logo__text">Доступно.<br>Профессионально.</span></a></div>
+          <div class="nav-burger visible-xs" id="burger-mobile"><span class="nav-burger__line"></span><span class="nav-burger__line"></span><span class="nav-burger__line"></span></div>
+        </div>
+        <div class="col-8 col-md-12">
+          <div class="page-header__nav">
+            <ul class="header-menu hidden-xs">
+              <li class="header-menu__item dropdown-menu"><a class="header-menu__link" href="#">Изготовление</a>
+                <ul class="dropdown-menu__list">
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Объёмные буквы</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Лайтбоксы</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Крышные конструкции</a></li>
+                </ul>
+              </li>
+              <li class="header-menu__item dropdown-menu"><a class="header-menu__link" href="#">Услуги</a>
+                <ul class="dropdown-menu__list">
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Дизайн рекламной конструкции</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Разработка логотипа</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Проектная документация</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Экспертиза проектной документации</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Согласование информационных конструкций</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Согласование рекламных конструкций</a></li>
+                </ul>
+              </li>
+              <li class="header-menu__item dropdown-menu"><a class="header-menu__link" href="#">О нас</a>
+                <ul class="dropdown-menu__list">
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Технологии производства</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Доставка и монтаж</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Контакты</a></li>
+                </ul>
+              </li>
+              <li class="header-menu__item"><a class="header-menu__link" href="">Наши работы</a></li>
+              <li class="header-menu__item"><a class="header-menu__link" href="">902-ПП</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-menu__overlay">
+      <div class="mobile-menu__content">
+        <ul class="mobile-menu" id="nav-mobile">
+          <li class="mobile-menu__item dropdown-mobile"><a class="mobile-menu__link" href="#">Изготовление</a>
+            <ul class="dropdown-mobile__list">
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Объёмные буквы</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Лайтбоксы</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Крышные конструкции</a></li>
+            </ul>
+          </li>
+          <li class="mobile-menu__item dropdown-mobile"><a class="mobile-menu__link" href="#">Услуги</a>
+            <ul class="dropdown-mobile__list">
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="" target="_blank">Дизайн рекламной конструкции</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Разработка логотипа</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Проектная документация</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Экспертиза проектной документации</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Согласование информационных конструкций</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Согласование рекламных конструкций</a></li>
+            </ul>
+          </li>
+          <li class="mobile-menu__item dropdown-mobile"><a class="mobile-menu__link" href="#">О нас</a>
+            <ul class="dropdown-mobile__list">
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Технологии производства</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Доставка и монтаж</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Контакты</a></li>
+            </ul>
+          </li>
+          <li class="mobile-menu__item"><a class="mobile-menu__link" href="">Наши работы</a></li>
+          <li class="mobile-menu__item"><a class="mobile-menu__link" href="">902-ПП</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="promo section">
+      <div class="container">
+        <div class="col-6 col-xs-12">
+          <div class="promo__description">
+            <div class="promo__header">Изготовили более 5000 вывесок и световых коробов!</div>
+            <div class="promo__subheader"></div>
+            <div class="promo-offer">
+              <div class="promo-offer__title">Работая с нами, вы получаете:</div>
+              <p class="promo-offer__text">Объёмные световые буквы от 1500 руб./шт</p>
+              <p class="promo-offer__text">Бесплатный выезд специалиста по Москве и МО<sup>1</sup></p>
+              <p class="promo-offer__text">Бесплатную фотопривязку в день заказа</p>
+              <p class="promo-offer__text">Готовую вывеску за 4 - 7 раб. дней</p>
+              <p class="promo-offer__text promo-offer__text--last">Гарантию на конструкцию от 1 года<sup>2</sup></p>
+              <p class="promo-offer__note"><sup>1</sup>  При заказе от 75 000 руб.</p>
+              <p class="promo-offer__note"><sup>2</sup>  Возможно продление гарантии до трёх лет</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-xs-12">
+          <form class="form promo__form js-form_validate" action="">
+            <div class="form__title title text-center">Оставить заявку на расчёт</div>
+            <div class="form__field">
+              <input type="text" name="" placeholder="Имя *" data-reqfield><span class="form__field--require">Заполните поле</span>
+            </div>
+            <div class="form__field">
+              <input type="tel" name="" placeholder="Телефон *" data-reqfield><span class="form__field--require">Заполните поле</span>
+            </div>
+            <div class="form__field">
+              <input type="email" name="" placeholder="Email">
+            </div>
+            <div class="form__field">
+              <input type="text" name="" placeholder="Что рассчитать">
+            </div>
+            <div class="form__submit text-center">
+              <input class="button button-submit button--wide" type="submit" value="Заказать расчёт">
+              <div class="form__privacy text-left">Отправляя заявку, я соглашаюсь на <a href="" target="_blank">обработку персональных данных</a> и получение информационных сообщений.</div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="outadv section">
+      <div class="container">
+        <div class="section__title title text-center">Изготовление и производство</div>
+        <div class="col-4 col-sm-6 col-xs-12"><a class="service text-center js-equal_outadvh" href=""><span class="service__image"><img class="service__img" src="/assets/main/img/sign/sign-vtb.jpg" alt="Вывески и объёмные буквы"></span><span class="service__title title text-center">Объёмные буквы</span><span class="service__description">Изготовление от 4-х раб. дней. Гарантия от 1-го года.</span></a></div>
+        <div class="col-4 col-sm-6 col-xs-12"><a class="service text-center js-equal_outadvh" href=""><span class="service__image"><img class="service__img" src="/assets/main/img/lightbox/lightbox-bearman.jpg" alt="Световой короб и лайтбокы"></span><span class="service__title title text-center">Лайтбоксы</span><span class="service__description">Световые короба и лайтбоксы различных типов</span></a></div>
+        <div class="col-4 col-sm-6 col-xs-12"><a class="service text-center js-equal_outadvh" href=""><span class="service__image"><img class="service__img" src="/assets/main/img/roof/roof.jpg" alt="Крышные конструкции"></span><span class="service__title title text-center">Крышные конструкции</span><span class="service__description">От разработки дизайн-проекта до монтажа</span></a></div>
+        <!--.onwardsa.button.onwards__btn(href="")
+        -->
+      </div>
+    </div>
+    <div class="involving-service section">
+      <div class="container">
+        <div class="section__title title text-center">Дополнительные услуги</div>
+        <div class="col-12">
+          <div class="involving">
+            <div class="col-4 col-xs-12">
+              <div class="involving__ico"><img class="involving__img" src="/assets/main/img/ico/ico-involv_photobind.png" alt=""></div>
+            </div>
+            <div class="col-8 col-xs-12">
+              <div class="involving__description">
+                <div class="involving__title">Фотопривязка</div>
+                <p>В течение одного дня специалистами будет создан дизайн-макет конструкции.</p>
+                <p>С использованием дизайн-макета затем будет подготовлена фотопривязка вашей будущей наружной рекламы.</p>
+                <div class="involving__cost">Бесплатно</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="involving">
+            <div class="col-4 col-xs-12">
+              <div class="involving__ico"><img class="involving__img" src="/assets/main/img/ico/ico-involv_delivery.png" alt=""></div>
+            </div>
+            <div class="col-8 col-xs-12">
+              <div class="involving__description">
+                <div class="involving__title">Доставка</div>
+                <p>Мы осуществляем бесплатную доставку изделий по Москве и Московской области.</p>
+                <p>При необходимости доставки изделий за пределы Московской области, стоимость будет определена индивидуально.</p>
+                <div class="involving__cost">
+                  <p>от 1500 р.</p>
+                  <p>Бесплатно при монтаже специалистами компании</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="involving">
+            <div class="col-4 col-xs-12">
+              <div class="involving__ico"><img class="involving__img" src="/assets/main/img/ico/ico-involv_installation.png" alt=""></div>
+            </div>
+            <div class="col-8 col-xs-12">
+              <div class="involving__description">
+                <div class="involving__title">Монтаж</div>
+                <p>Наши специалисты без труда произведут монтаж наружной рекламы любой сложности.</p>
+                <p>В конечную стоимость будут включены все работы "под ключ".</p>
+                <p><strong>ВНИМАНИЕ!</strong>  Стоимость услуги рассчитывается индивидуально для каждого объекта и зависит от сложности монтажа и адреса объекта.</p>
+                <div class="involving__cost">от 5500 р.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="services-turnkey section">
+      <div class="container">
+        <div class="section__title title text-center">Наши услуги под ключ</div>
+        <div class="col-4 col-sm-6 col-xs-12"><a class="service js-equal_height" href=""><span class="service__image"><img class="service__img" src="/assets/main/img/turnkey/turnkey-design.jpg" alt=""></span><span class="service__title title text-center">Дизайн рекламной конструкции</span><span class="service__description text-center">При разработке индивидуального дизайна вывески, мы подготовим несколько вариантов макетов, с учетом ваших пожеланий.</span></a></div>
+        <div class="col-4 col-sm-6 col-xs-12"><a class="service js-equal_height" href=""><span class="service__image"><img class="service__img" src="/assets/main/img/turnkey/turnkey-logo.jpg" alt=""></span><span class="service__title title text-center">Разработка логотипа компании</span><span class="service__description text-center">Команда дизайнеров разработает для вашей организации логотип, который будет добавлен к текстовой части вывески.</span></a></div>
+        <div class="col-4 col-sm-6 col-xs-12"><a class="service js-equal_height" href=""><span class="service__image"><img class="service__img" src="/assets/main/img/turnkey/turnkey-projectdocs.jpg" alt=""></span><span class="service__title title text-center">Проектная документация</span><span class="service__description text-center">Подготовка проектной документации для рекламной конструкции любой сложности. Проект включает в себя статичные и ветровые нагрузки, электросхему, а также сертификаты СРО.</span></a></div>
+        <div class="onwards text-center"><a class="button onwards__btn" href="">Все услуги</a></div>
+      </div>
+    </div>
+    <div class="portfolio section">
+      <div class="container">
+        <div class="section__title title text-center">Наши работы</div>
+        <div class="col-4 col-sm-6 col-xs-12">
+          <div class="project"><a class="project__link" href="/assets/main/img/portfolio/portfolio-marble.jpg" data-fancybox="gallery"><img class="project__img thumbnail" src="/assets/main/img/portfolio/portfolio-marble_sm.jpg" alt=""></a></div>
+        </div>
+        <div class="col-4 col-sm-6 col-xs-12">
+          <div class="project"><a class="project__link" href="/assets/main/img/portfolio/portfolio-bearman.jpg" data-fancybox="gallery"><img class="project__img thumbnail" src="/assets/main/img/portfolio/portfolio-bearman_sm.jpg" alt=""></a></div>
+        </div>
+        <div class="col-4 col-sm-6 col-xs-12">
+          <div class="project"><a class="project__link" href="/assets/main/img/portfolio/portfolio-beautysp.jpg" data-fancybox="gallery"><img class="project__img thumbnail" src="/assets/main/img/portfolio/portfolio-beautysp_sm.jpg" alt=""></a></div>
+        </div>
+        <div class="col-4 col-sm-6 col-xs-12">
+          <div class="project"><a class="project__link" href="/assets/main/img/portfolio/portfolio-fish.jpg" data-fancybox="gallery"><img class="project__img thumbnail" src="/assets/main/img/portfolio/portfolio-fish_sm.jpg" alt=""></a></div>
+        </div>
+        <div class="col-4 col-sm-6 col-xs-12">
+          <div class="project"><a class="project__link" href="/assets/main/img/portfolio/portfolio-pizzacafe.jpg" data-fancybox="gallery"><img class="project__img thumbnail" src="/assets/main/img/portfolio/portfolio-pizzacafe_sm.jpg" alt=""></a></div>
+        </div>
+        <div class="col-4 col-sm-6 col-xs-12">
+          <div class="project"><a class="project__link" href="/assets/main/img/portfolio/portfolio-barberbeauty.jpg" data-fancybox="gallery"><img class="project__img thumbnail" src="/assets/main/img/portfolio/portfolio-barberbeauty_sm.jpg" alt=""></a></div>
+        </div>
+        <div class="col-4 col-sm-6 col-xs-12">
+          <div class="project"><a class="project__link" href="/assets/main/img/portfolio/portfolio-beerlive.jpg" data-fancybox="gallery"><img class="project__img thumbnail" src="/assets/main/img/portfolio/portfolio-beerlive_sm.jpg" alt=""></a></div>
+        </div>
+        <div class="col-4 col-sm-6 col-xs-12">
+          <div class="project"><a class="project__link" href="/assets/main/img/portfolio/portfolio-beautysalon.jpg" data-fancybox="gallery"><img class="project__img thumbnail" src="/assets/main/img/portfolio/portfolio-beautysalon_sm.jpg" alt=""></a></div>
+        </div>
+        <div class="col-4 col-sm-6 col-xs-12">
+          <div class="project"><a class="project__link" href="/assets/main/img/portfolio/portfolio-starcapital.jpg" data-fancybox="gallery"><img class="project__img thumbnail" src="/assets/main/img/portfolio/portfolio-starcapital_sm.jpg" alt=""></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="schemework section">
+      <div class="container">
+        <div class="section__title title text-center">Схема работы</div>
+        <div class="section__subtitle title text-center">Просто. Прозрачно. Профессионально.</div>
+        <div class="col-4 col-sm-6 col-xs-12">
+          <div class="stage text-center">
+            <div class="stage__ico"><img class="stage__img" src="/assets/main/img/ico/ico-scheme_approval-2.png" alt="Утверждаем смету и стоимость изготовления"></div>
+            <div class="stage__title">Утверждаем стоимость изготовления</div>
+            <div class="stage__text">
+              <p>Мы оцениваем ваш макет. Согласовываем размеры изделия и стоимость изготовления.</p>
+            </div>
+            <div class="stage__time">1 день</div>
+          </div>
+        </div>
+        <div class="col-4 col-sm-6 col-xs-12">
+          <div class="stage text-center">
+            <div class="stage__ico"><img class="stage__img" src="/assets/main/img/ico/ico-scheme_photobind.png" alt="Делаем фотопривязку"></div>
+            <div class="stage__title">Делаем фотопривязку</div>
+            <div class="stage__text">
+              <p>Создаётся дизайн-макет, который используется при фотопривязке на примере вашего объекта.</p>
+            </div>
+            <div class="stage__time">1 день</div>
+          </div>
+        </div>
+        <div class="col-4 col-sm-6 col-xs-12">
+          <div class="stage text-center">
+            <div class="stage__ico"><img class="stage__img" src="/assets/main/img/ico/ico-scheme_payment.png" alt="Вносите предоплату 70%"></div>
+            <div class="stage__title">Вносите предоплату 70%</div>
+            <div class="stage__text">
+              <p>Для запуска изделия в производство, вносится предоплата в размере 70% от стоимости изготовления.</p>
+            </div>
+            <div class="stage__time"></div>
+          </div>
+        </div>
+        <div class="col-4 col-sm-6 col-xs-12">
+          <div class="stage text-center">
+            <div class="stage__ico"><img class="stage__img" src="/assets/main/img/ico/ico-scheme_production.png" alt="Изготавливаем вывеску"></div>
+            <div class="stage__title">Изготавливаем вывеску</div>
+            <div class="stage__text">
+              <p>После получения предоплаты мы запускаем ваше изделие в производство</p>
+            </div>
+            <div class="stage__time">5 - 10 рабочих дней</div>
+          </div>
+        </div>
+        <div class="col-4 col-sm-6 col-xs-12">
+          <div class="stage text-center">
+            <div class="stage__ico"><img class="stage__img" src="/assets/main/img/ico/ico-scheme_delivery.png" alt="Доставка вывески и монтаж"></div>
+            <div class="stage__title">Доставка и монтаж</div>
+            <div class="stage__text">
+              <p>После изготовления вывески мы доставляем её на объект. Также наши специалисты выполнят монтаж вывески при заказе данной услуги.</p>
+            </div>
+            <div class="stage__time">1 день</div>
+          </div>
+        </div>
+        <div class="col-4 col-sm-6 col-xs-12">
+          <div class="stage text-center">
+            <div class="stage__ico"><img class="stage__img" src="/assets/main/img/ico/ico-scheme_accept.png" alt="Принимаете работу"></div>
+            <div class="stage__title">Принимаете работу</div>
+            <div class="stage__text">
+              <p>Финальный этап. Вы принимаете выпоненную работу и оплачиваете оставшиеся 30% стоимости.</p>
+            </div>
+            <div class="stage__time"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="callback section">
+      <div class="container">
+        <div class="section__title title text-center">Ответим на все вопросы</div>
+        <div class="callback__form">
+          <form class="form js-form_validate" action="">
+            <div class="form__title title text-center">Получить консультацию</div>
+            <div class="form__field">
+              <input type="text" name="" placeholder="Имя *" data-reqfield><span class="form__field--require">Заполните поле</span>
+            </div>
+            <div class="form__field">
+              <input type="tel" name="" placeholder="Телефон *" data-reqfield><span class="form__field--require">Заполните поле</span>
+            </div>
+            <div class="form__field">
+              <input type="email" name="" placeholder="Email">
+            </div>
+            <div class="form__field">
+              <input type="text" name="" placeholder="Вопрос">
+            </div>
+            <div class="form__submit">
+              <input class="button button-submit button--wide" type="submit" value="Задать вопрос">
+              <div class="form__privacy text-left">Отправляя заявку, я соглашаюсь на <a href="" target="_blank">обработку персональных данных</a> и получение информационных сообщений.</div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="contacts section">
+      <div class="contacts__map" id="map"></div>
+      <div class="contacts__wrap">
+        <div class="container">
+          <div class="contacts__sect">
+            <div class="col-4 col-sm-12">
+              <div class="contacts__item">
+                <div class="contacts__ico"><i class="icon-location contacts__ico--addr"></i></div>
+                <div class="contacts__text">
+                  <div class="contacts__title">Приезжайте:</div>
+                  <div class="contacts__info"><span>г. Москва,</span><span>ул. Михалковская, 65 с1</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 col-sm-12">
+              <div class="contacts__item">
+                <div class="contacts__ico"><i class="icon-phone contacts__ico--phone"></i></div>
+                <div class="contacts__text">
+                  <div class="contacts__title">Звоните:</div>
+                  <div class="contacts__info">8 495 118-26-63</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 col-sm-12">
+              <div class="contacts__item">
+                <div class="contacts__ico"><i class="icon-email contacts__ico--mail"></i></div>
+                <div class="contacts__text">
+                  <div class="contacts__title">Пишите:</div>
+                  <div class="contacts__info"><a class="contacts__link" href="" emailto="zakaz@viveska1.ru">zakaz@viveska1.ru</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer section">
+      <div class="container">
+        <div class="col-4 col-sm-12 col-xs-12">
+          <div class="footer__copyright">&#169; 2008 - 2017 3DVIVESKA.RU</div>
+        </div>
+        <div class="col-8 col-sm-12 col-xs-12">
+          <div class="footer__legalinfo">ИП Заварухин А.Е. / ОГРНИП 317774600205942 / ИНН 774318077020</div>
+        </div>
+      </div>
+    </div>
+    <script src="/assets/main/js/jquery-2.1.3.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+    <script src="/assets/main/js/map.yandex.js"></script>
+    <script src="/assets/main/js/inputmask.min.js"></script>
+    <script src="/assets/main/js/jquery.inputmask.min.js"></script>
+    <script src="/assets/main/js/jquery.fancybox.min.js"></script>
+    <script src="/assets/main/js/script.js"></script>
+  </body>
+</html>

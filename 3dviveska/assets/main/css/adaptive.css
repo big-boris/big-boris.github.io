@@ -1,0 +1,81 @@
+@media screen and (max-width: 1200px) {
+  .contacts__text {
+    max-width: 230px; } }
+
+@media screen and (max-width: 992px) {
+  .promo__header {
+    font-size: 2rem; }
+  .promo-offer {
+    padding: 24px 0; }
+  .promo__form {
+    width: 100%; }
+  .involving__description {
+    padding: 0 0 16px; }
+  .contacts__item {
+    margin-right: -15px; }
+  .contacts__title {
+    font-size: 16px; }
+  .contacts__info {
+    font-size: 14px; }
+  .contacts__text {
+    max-width: 170px;
+    padding-left: 7px; }
+  .contacts__ico {
+    font-size: 24px; }
+    .contacts__ico--addr {
+      font-size: 28px;
+      margin-right: 4px;
+      padding-right: 0; }
+    .contacts__ico--phone {
+      font-size: 24px;
+      margin-right: 4px;
+      padding-right: 0; }
+    .contacts__ico--mail {
+      font-size: 24px;
+      margin-right: 4px;
+      padding-right: 0; } }
+
+@media screen and (max-width: 720px) {
+  .contacts__sect {
+    text-align: left; }
+  .contacts__item {
+    margin-right: 0; }
+  .contacts__title {
+    font-size: 18px; }
+  .contacts__info {
+    font-size: 16px; }
+  .contacts__text {
+    width: 100%;
+    max-width: 200px;
+    padding-left: 18px; }
+  .contacts__ico {
+    font-size: 36px; }
+    .contacts__ico--addr {
+      font-size: 36px;
+      margin-right: 9px;
+      margin-left: 10px;
+      padding-right: 0; }
+    .contacts__ico--phone {
+      font-size: 36px;
+      margin-right: 8px;
+      padding-right: 0; }
+    .contacts__ico--mail {
+      font-size: 36px;
+      margin-right: 8px;
+      padding-right: 0; }
+  .footer__legalinfo {
+    margin-top: 10px;
+    text-align: left; } }
+
+@media screen and (max-width: 576px) {
+  .section__title {
+    padding: 24px 0;
+    font-size: 2rem; }
+  .involving {
+    margin-bottom: 18px; }
+    .involving__ico {
+      margin-bottom: 18px; }
+    .involving__title, .involving__cost {
+      text-align: center; }
+  .contacts__item {
+    padding: 14px 0; } }
