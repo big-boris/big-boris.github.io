@@ -43,7 +43,7 @@
 @font-face {
   font-family: 'Roboto Condensed';
   src: url("../fonts/roboto_condensed-bold/font.eot");
-  src: url("../fonts/roboto_condensed-boldt/font.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto_condensed-boldt/font.woff2") format("woff2"), url("../fonts/roboto_condensed-boldt/font.woff") format("woff"), url("../fonts/roboto_condensed-boldt/font.ttf") format("truetype");
+  src: url("../fonts/roboto_condensed-bold/font.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto_condensed-bold/font.woff2") format("woff2"), url("../fonts/roboto_condensed-bold/font.woff") format("woff"), url("../fonts/roboto_condensed-bold/font.ttf") format("truetype");
   font-style: normal;
   font-weight: 700; }
 

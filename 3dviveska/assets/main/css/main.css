@@ -19,6 +19,12 @@ body {
   color: #171717;
   background-color: #f9f9f9; }
 
+h1 {
+  font-size: 1.75rem; }
+
+h2 {
+  font-size: 1.5rem; }
+
 img {
   max-width: 100%;
   height: auto; }
@@ -277,6 +283,20 @@ input[type="password"] {
 
 .dropdown-mobile {
   position: relative; }
+  .dropdown-mobile .mobile-menu__link::after {
+    font-family: "icon-font";
+    content: "\e80b";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -15px;
+    width: 10px;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #ffffff; }
   .dropdown-mobile__list {
     display: none;
     left: 0;
@@ -354,6 +374,7 @@ input[type="password"] {
     display: inline-block;
     padding-left: 14px;
     vertical-align: middle;
+    font-size: 14px;
     font-weight: 500; }
 
 .page-header__nav {

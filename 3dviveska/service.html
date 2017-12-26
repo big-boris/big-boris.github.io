@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>3DВывеска</title>
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/normalboot.css">
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/tables.css">
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/inner.css">
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/inner_adaptive.css">
+  </head>
+  <body class="index-page">
+    <div class="preinfo hidden-xs">
+      <div class="container">
+        <ul class="preinfo-list">
+          <li class="preinfo-list__item"><i class="icon-clock preinfo-list__item--time"></i>пн - пт с 09:00 до 18:00</li>
+          <li class="preinfo-list__item cursor--pointer js-scroll_to" data-scroll_to="#map"><i class="icon-location preinfo-list__item--addr"></i>Москва, ул. Михалковская, 65с1</li>
+          <li class="preinfo-list__item"><i class="icon-phone preinfo-list__item--phone"></i><a class="preinfo-list__link" href="tel:+74951182663">8 495 118-26-63</a></li>
+          <li class="preinfo-list__item"><i class="icon-email preinfo-list__item--mail"></i><a class="preinfo-list__link" href="" emailto="zakaz@viveska1.ru">zakaz@viveska1.ru</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="page-header">
+      <div class="container">
+        <div class="col-4 col-md-12">
+          <div class="page-header__logo"><a class="logo" href="index.html"><img class="logo__img" src="/assets/main/img/logo.png" alt="3dвывеска"><span class="logo__text">Доступно.<br>Долговременно.<br>Душевно.</span></a></div>
+          <div class="nav-burger visible-xs" id="burger-mobile"><span class="nav-burger__line"></span><span class="nav-burger__line"></span><span class="nav-burger__line"></span></div>
+        </div>
+        <div class="col-8 col-md-12">
+          <div class="page-header__nav">
+            <ul class="header-menu hidden-xs">
+              <li class="header-menu__item dropdown-menu"><a class="header-menu__link" href="#">Изготовление</a>
+                <ul class="dropdown-menu__list">
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="services.html">Объёмные буквы</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="lightboxes.html">Лайтбоксы</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="service.html">Крышные конструкции</a></li>
+                </ul>
+              </li>
+              <li class="header-menu__item dropdown-menu"><a class="header-menu__link" href="#">Услуги</a>
+                <ul class="dropdown-menu__list">
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Дизайн рекламной конструкции</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Разработка логотипа</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Проектная документация</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Экспертиза проектной документации</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Согласование информационных конструкций</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Согласование рекламных конструкций</a></li>
+                </ul>
+              </li>
+              <li class="header-menu__item dropdown-menu"><a class="header-menu__link" href="#">О нас</a>
+                <ul class="dropdown-menu__list">
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="page-develop.html">Технологии производства</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="page-develop.html">Доставка и монтаж</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="contacts.html">Контакты</a></li>
+                </ul>
+              </li>
+              <li class="header-menu__item"><a class="header-menu__link" href="">Наши работы</a></li>
+              <li class="header-menu__item"><a class="header-menu__link" href="404.html">902-ПП</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-menu__overlay">
+      <div class="mobile-menu__content">
+        <ul class="mobile-menu" id="nav-mobile">
+          <li class="mobile-menu__item dropdown-mobile"><a class="mobile-menu__link" href="#">Изготовление</a>
+            <ul class="dropdown-mobile__list">
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Объёмные буквы</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Лайтбоксы</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Крышные конструкции</a></li>
+            </ul>
+          </li>
+          <li class="mobile-menu__item dropdown-mobile"><a class="mobile-menu__link" href="#">Услуги</a>
+            <ul class="dropdown-mobile__list">
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="" target="_blank">Дизайн рекламной конструкции</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Разработка логотипа</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Проектная документация</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Экспертиза проектной документации</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Согласование информационных конструкций</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Согласование рекламных конструкций</a></li>
+            </ul>
+          </li>
+          <li class="mobile-menu__item dropdown-mobile"><a class="mobile-menu__link" href="#">О нас</a>
+            <ul class="dropdown-mobile__list">
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Технологии производства</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Доставка и монтаж</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Контакты</a></li>
+            </ul>
+          </li>
+          <li class="mobile-menu__item"><a class="mobile-menu__link" href="">Наши работы</a></li>
+          <li class="mobile-menu__item"><a class="mobile-menu__link" href="">902-ПП</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="service-inner">
+      <div class="container">
+        <div class="service-inner__promo"></div>
+        <div class="breadcrumbs">
+          <div class="container">
+            <ul class="breadcrumb">
+              <li class="breadcrumb__item"><a class="breadcrumb__link" href="index.html">Главная</a></li><i class="icon-right-open"></i>
+              <li class="breadcrumb__item"><a class="breadcrumb__link" href="">Объемные буквы с лицевой подсветкой</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-4 col-sm-12">
+          <div class="side-inner">
+            <ul class="sidemenu">
+              <li class="sidemenu__item"><a class="sidemenu__link sidemenu__link--current" href="">Объёмные буквы до 25 см</a></li>
+              <li class="sidemenu__item"><a class="sidemenu__link" href="">Объёмные буквы 25 - 50 см</a></li>
+              <li class="sidemenu__item"><a class="sidemenu__link" href="">Объёмные буквы от 50 см</a></li>
+              <li class="sidemenu__item"><a class="sidemenu__link" href="">Объёмные буквы с контражурной подсветкой</a></li>
+              <li class="sidemenu__item"><a class="sidemenu__link" href="">Объёмные буквы с контражурной и лицевой подсветкой</a></li>
+              <li class="sidemenu__item"><a class="sidemenu__link" href="">Объёмные буквы с лицевой и торцевой подсветкой</a></li>
+            </ul><a class="side-inner__link" href=""><i class="icon-pdf-fill"></i><span>Объёмные буквы<br>прайс-лист, pdf</span></a><a class="side-inner__link" href=""><i class="icon-xls-fill"></i><span>Объёмные буквы<br>прайс-лист, xls</span></a>
+          </div>
+        </div>
+        <div class="col-8 col-sm-12">
+          <div class="service-inner__content">
+            <div class="service-inner__img"><img src="/assets/main/img/service-inner/service_img-letter.jpg" alt=""></div>
+            <h1>Объёмные буквы с лицевой подсветкой от 25 до 50 см</h1>
+            <p>В последнее время именно объемные буквы с лицевой подсветкой стали одним из самых популярных видов наружной рекламы. Мы знаем об их производстве все. Более того, мы предлагаем наши услуги не только по изготовлению, но и монтажу. Разработаем уникальный дизайн вместе! Создадим лицо вашего бизнеса!</p>
+            <h2>Производство</h2>
+            <p>Задняя стенка такой конструкции изготавливается из ПВХ или акрила, в зависимости от эффекта, которого вы хотели бы достигнуть. Боковые стенки непрозрачные и закатываются пленкой любого цвета. Бывают и исключения: лицевая поверхность не прозрачная, а вот боковая производится из акрила.</p>
+            <p>В изготовлении объемных букв с подсветкой для лицевой части часто используется светорассеивающий акрил. Этот материал может быть молочным, тогда буквы будут белыми, или с покрытием специальной светорассеивающей пленкой, которая сегодня часто применяется в производстве световой рекламы.</p>
+            <div class="price-table">
+              <div class="table-responsive">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th class="title text-center" colspan="2">Цена изготовления объёмных букв с лицевой подсветкой</th>
+                    </tr>
+                  </thead>
+                  <tr>
+                    <td>Объёмные буквы с лицевой подсветкой от 25 до 50 см</td>
+                    <td class="text-right">от 60 р./см</td>
+                  </tr>
+                  <tr>
+                    <td class="title text-center" colspan="2">Дополнительные услуги</td>
+                  </tr>
+                  <tr>
+                    <td>Подложка ПВХ</td>
+                    <td class="text-right">1.750 р./кв.м.</td>
+                  </tr>
+                  <tr>
+                    <td>Подложка АКЛ</td>
+                    <td class="text-right">3.500 р./кв.м.</td>
+                  </tr>
+                  <tr>
+                    <td>Декоративный элемент (логотип)</td>
+                    <td class="text-right">от 5.000 р./шт</td>
+                  </tr>
+                  <tr>
+                    <td>Сложный шрифт</td>
+                    <td class="text-right">400 р./буква</td>
+                  </tr>
+                  <tr>
+                    <td>Оклеивание торцов цветной пленкой Oracal 641</td>
+                    <td class="text-right">400 р./буква</td>
+                  </tr>
+                  <tr>
+                    <td>Алюминиевый профиль в цвет фасада</td>
+                    <td class="text-right">1000 р.</td>
+                  </tr>
+                  <tr>
+                    <td>Монтаж Москва</td>
+                    <td class="text-right">от 5.500 р.</td>
+                  </tr>
+                  <tr>
+                    <td>Монтаж МО</td>
+                    <td class="text-right">от 6.500 р.</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="service-order">
+              <form class="form service-order__form js-form_validate" action="" method="post">
+                <div class="form__title title text-center">Отправить заявку</div>
+                <div class="form__field">
+                  <input type="tel" name="" placeholder="Телефон *" data-reqfield><span class="form__field--require">Заполните поле</span>
+                </div>
+                <div class="form__field">
+                  <input type="email" name="" placeholder="Email">
+                </div>
+                <div class="form__field">
+                  <input type="text" name="" placeholder="Что рассчитать">
+                </div>
+                <div class="form__submit">
+                  <input class="button button-submit button--wide" type="submit" value="Заказать расчёт">
+                  <div class="form__privacy text-left">Отправляя заявку, я соглашаюсь на <a href="" target="_blank">обработку персональных данных</a> и получение информационных сообщений.</div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer section">
+      <div class="container">
+        <div class="col-4 col-sm-12 col-xs-12">
+          <div class="footer__copyright">&#169; 2008 - 2017 3DVIVESKA.RU</div>
+        </div>
+        <div class="col-8 col-sm-12 col-xs-12">
+          <div class="footer__legalinfo">ИП Заварухин А.Е. / ОГРНИП 317774600205942 / ИНН 774318077020</div>
+        </div>
+      </div>
+    </div>
+    <script src="/assets/main/js/jquery-2.1.3.min.js"></script>
+    <script src="/assets/main/js/inputmask.min.js"></script>
+    <script src="/assets/main/js/jquery.inputmask.min.js"></script>
+    <script src="/assets/main/js/jquery.fancybox.min.js"></script>
+    <script src="/assets/main/js/script.js"></script>
+  </body>
+</html>

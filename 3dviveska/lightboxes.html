@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>3DВывеска</title>
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/normalboot.css">
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/tables.css">
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/inner.css">
+    <link rel="stylesheet" type="text/css" href="/assets/main/css/inner_adaptive.css">
+  </head>
+  <body class="index-page">
+    <div class="preinfo hidden-xs">
+      <div class="container">
+        <ul class="preinfo-list">
+          <li class="preinfo-list__item"><i class="icon-clock preinfo-list__item--time"></i>пн - пт с 09:00 до 18:00</li>
+          <li class="preinfo-list__item cursor--pointer js-scroll_to" data-scroll_to="#map"><i class="icon-location preinfo-list__item--addr"></i>Москва, ул. Михалковская, 65с1</li>
+          <li class="preinfo-list__item"><i class="icon-phone preinfo-list__item--phone"></i><a class="preinfo-list__link" href="tel:+74951182663">8 495 118-26-63</a></li>
+          <li class="preinfo-list__item"><i class="icon-email preinfo-list__item--mail"></i><a class="preinfo-list__link" href="" emailto="zakaz@viveska1.ru">zakaz@viveska1.ru</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="page-header">
+      <div class="container">
+        <div class="col-4 col-md-12">
+          <div class="page-header__logo"><a class="logo" href="index.html"><img class="logo__img" src="/assets/main/img/logo.png" alt="3dвывеска"><span class="logo__text">Доступно.<br>Долговременно.<br>Душевно.</span></a></div>
+          <div class="nav-burger visible-xs" id="burger-mobile"><span class="nav-burger__line"></span><span class="nav-burger__line"></span><span class="nav-burger__line"></span></div>
+        </div>
+        <div class="col-8 col-md-12">
+          <div class="page-header__nav">
+            <ul class="header-menu hidden-xs">
+              <li class="header-menu__item dropdown-menu"><a class="header-menu__link" href="#">Изготовление</a>
+                <ul class="dropdown-menu__list">
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="services.html">Объёмные буквы</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="lightboxes.html">Лайтбоксы</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="service.html">Крышные конструкции</a></li>
+                </ul>
+              </li>
+              <li class="header-menu__item dropdown-menu"><a class="header-menu__link" href="#">Услуги</a>
+                <ul class="dropdown-menu__list">
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Дизайн рекламной конструкции</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Разработка логотипа</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Проектная документация</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Экспертиза проектной документации</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Согласование информационных конструкций</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="">Согласование рекламных конструкций</a></li>
+                </ul>
+              </li>
+              <li class="header-menu__item dropdown-menu"><a class="header-menu__link" href="#">О нас</a>
+                <ul class="dropdown-menu__list">
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="page-develop.html">Технологии производства</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="page-develop.html">Доставка и монтаж</a></li>
+                  <li class="dropdown-menu__item"><a class="dropdown-menu__link" href="contacts.html">Контакты</a></li>
+                </ul>
+              </li>
+              <li class="header-menu__item"><a class="header-menu__link" href="">Наши работы</a></li>
+              <li class="header-menu__item"><a class="header-menu__link" href="404.html">902-ПП</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-menu__overlay">
+      <div class="mobile-menu__content">
+        <ul class="mobile-menu" id="nav-mobile">
+          <li class="mobile-menu__item dropdown-mobile"><a class="mobile-menu__link" href="#">Изготовление</a>
+            <ul class="dropdown-mobile__list">
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Объёмные буквы</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Лайтбоксы</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Крышные конструкции</a></li>
+            </ul>
+          </li>
+          <li class="mobile-menu__item dropdown-mobile"><a class="mobile-menu__link" href="#">Услуги</a>
+            <ul class="dropdown-mobile__list">
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="" target="_blank">Дизайн рекламной конструкции</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Разработка логотипа</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Проектная документация</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Экспертиза проектной документации</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Согласование информационных конструкций</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Согласование рекламных конструкций</a></li>
+            </ul>
+          </li>
+          <li class="mobile-menu__item dropdown-mobile"><a class="mobile-menu__link" href="#">О нас</a>
+            <ul class="dropdown-mobile__list">
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Технологии производства</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Доставка и монтаж</a></li>
+              <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="">Контакты</a></li>
+            </ul>
+          </li>
+          <li class="mobile-menu__item"><a class="mobile-menu__link" href="">Наши работы</a></li>
+          <li class="mobile-menu__item"><a class="mobile-menu__link" href="">902-ПП</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="services">
+      <div class="container">
+        <div class="services-lightbox__promo"></div>
+        <div class="section__title title text-center">Световые короба (лайтбоксы)</div>
+        <div class="col-4 col-sm-6 col-xs-12"><a class="service js-equal_outadvh" href="service.html"><span class="service__image"><img class="service__img" src="/assets/main/img/lightbox/lightbox-bearman.jpg" alt="Двусторонний световой короб"></span>
+            <h3 class="title text-center">Двухсторонний световой короб (панель-кронштейн)</h3><span class="service__description">В стоимость включено:</span>
+            <ul>
+              <li>панель-кронштейн</li>
+              <li>оклейка торцов пленкой</li>
+              <li>лицо: молочный акрил + плоттерная резка/печать</li>
+              <li>диодная подсветка</li>
+              <li>интерьерный блок питания</li>
+            </ul>
+            <p class="service__cost text-center">от 12000 рублей/шт</p></a></div>
+        <div class="col-4 col-sm-6 col-xs-12"><a class="service js-equal_outadvh" href="service.html"><span class="service__image"><img class="service__img" src="/assets/main/img/lightbox/lightbox-marble.jpg" alt="Световой короб с инкрустацией"></span>
+            <h3 class="title text-center">Инкрустация</h3><span class="service__description">В стоимость включено:</span>
+            <ul>
+              <li>короб из АКЛ (Алюминиевый композитный лист)</li>
+              <li>оклейка короба пленкой (при необходимости)</li>
+              <li>акрил 6мм/8мм/10мм</li>
+              <li>диодная подсветка</li>
+              <li>оклейка букв пленкой (при необходимости)</li>
+              <li>интерьерный блок питания</li>
+            </ul>
+            <p class="service__cost text-center">от 12000 рублей за кв.м.</p></a></div>
+        <div class="col-4 col-sm-6 col-xs-12"><a class="service js-equal_outadvh" href="service.html"><span class="service__image"><img class="service__img" src="/assets/main/img/lightbox/lightbox-cafemenu.jpg" alt="Лайтбокс до 3 кв.м."></span>
+            <h3 class="title text-center">Световой короб (лайтбокс) до 3-х кв.м.</h3><span class="service__description">В стоимость включено:</span>
+            <ul>
+              <li>световой короб (лайтбокс)</li>
+              <li>лицо: молочный акрил + печать/плоттерная резка</li>
+              <li>торцы: алюминиевый профиль, профиль КВАДРО или ПВХ</li>
+              <li>диодная подсветка</li>
+              <li>интерьерный блок питания</li>
+            </ul>
+            <p class="service__cost text-center">от 10000 рублей за кв.м.</p></a></div>
+        <div class="col-4 col-sm-6 col-xs-12"><a class="service js-equal_outadvh" href="service.html"><span class="service__image"><img class="service__img" src="/assets/main/img/lightbox/lightbox-shawarma.jpg" alt="Лайтбокс более 3 кв.м."></span>
+            <h3 class="title text-center">Световой короб (лайтбокс) более 3-х кв.м.</h3><span class="service__description">В стоимость включено:</span>
+            <ul>
+              <li>световой короб (лайтбокс)</li>
+              <li>лицо: молочный акрил + печать/плоттерная резка</li>
+              <li>торцы: алюминиевый профиль, профиль КВАДРО или ПВХ</li>
+              <li>диодная подсветка</li>
+              <li>интерьерный блок питания</li>
+            </ul>
+            <p class="service__cost text-center">от 8000 рублей за кв.м.</p></a></div>
+        <div class="col-4 col-sm-6 col-xs-12"><a class="service js-equal_outadvh" href="service.html"><span class="service__image"><img class="service__img" src="/assets/main/img/lightbox/lightbox-beer.jpg" alt="Световая панель Кристалайт"></span>
+            <h3 class="title text-center">Кристалайт (световая панель)</h3><span class="service__description">В стоимость включено:</span>
+            <ul>
+              <li>световая панель "Кристалайт"</li>
+              <li>полноцветная печать изображения 600dpi</li>
+              <li>диодная подсветка</li>
+              <li>интерьерный блок питания</li>
+            </ul>
+            <p class="service__cost text-center">от 15000 рублей за кв.м.</p></a></div>
+        <div class="col-4 col-sm-6 col-xs-12"><a class="service js-equal_outadvh" href="service.html"><span class="service__image"><img class="service__img" src="/assets/main/img/lightbox/lightbox-watch.jpg" alt="Световая панель Фреймлайт"></span>
+            <h3 class="title text-center">Фреймлайт (световая панель)</h3><span class="service__description">В стоимость включено:</span>
+            <ul>
+              <li>световая панель "Фреймлайт"</li>
+              <li>полноцветная печать изображения 600dpi</li>
+              <li>диодная подсветка</li>
+              <li>интерьерный блок питания</li>
+            </ul>
+            <p class="service__cost text-center">от 15000 рублей за кв.м.</p></a></div>
+      </div>
+    </div>
+    <div class="footer section">
+      <div class="container">
+        <div class="col-4 col-sm-12 col-xs-12">
+          <div class="footer__copyright">&#169; 2008 - 2017 3DVIVESKA.RU</div>
+        </div>
+        <div class="col-8 col-sm-12 col-xs-12">
+          <div class="footer__legalinfo">ИП Заварухин А.Е. / ОГРНИП 317774600205942 / ИНН 774318077020</div>
+        </div>
+      </div>
+    </div>
+    <script src="/assets/main/js/jquery-2.1.3.min.js"></script>
+    <script src="/assets/main/js/inputmask.min.js"></script>
+    <script src="/assets/main/js/jquery.inputmask.min.js"></script>
+    <script src="/assets/main/js/jquery.fancybox.min.js"></script>
+    <script src="/assets/main/js/script.js"></script>
+  </body>
+</html>
