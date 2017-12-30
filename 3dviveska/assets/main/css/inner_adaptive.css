@@ -1,39 +1,9 @@
-@media screen and (max-width: 1200px) {
-  .contacts__text {
-    max-width: 230px; } }
-
 @media screen and (max-width: 992px) {
-  .promo__header {
-    font-size: 2rem; }
-  .promo-offer {
-    padding: 24px 0; }
-  .promo__form {
-    width: 100%; }
-  .involving__description {
-    padding: 0 0 16px; }
-  .contacts__item {
-    margin-right: -15px; }
-  .contacts__title {
-    font-size: 16px; }
-  .contacts__info {
-    font-size: 14px; }
-  .contacts__text {
-    max-width: 170px;
-    padding-left: 7px; }
-  .contacts__ico {
-    font-size: 24px; }
-    .contacts__ico--addr {
-      font-size: 28px;
-      margin-right: 4px;
-      padding-right: 0; }
-    .contacts__ico--phone {
-      font-size: 24px;
-      margin-right: 4px;
-      padding-right: 0; }
-    .contacts__ico--mail {
-      font-size: 24px;
-      margin-right: 4px;
-      padding-right: 0; } }
+  .progect-hover__view a {
+    width: 50px;
+    height: 50px;
+    font-size: 1.25rem;
+    line-height: 2.6; } }
 
 @media screen and (max-width: 720px) {
   .sidemenu, .service-inner__content {

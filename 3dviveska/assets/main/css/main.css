@@ -435,7 +435,7 @@ input[type="password"] {
     padding: 0;
     z-index: 10;
     list-style: none;
-    background-color: #ffffff;
+    background-color: #f9f9f9;
     border-top: 3px solid #2f65af;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
